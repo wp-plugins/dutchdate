@@ -14,19 +14,22 @@ Using an English Wordpress install and publishing posts in Dutch? Those pesky En
 **Intended usage:**
 
 Replacing dates like 'Thursday, October 22nd', for instance in your custom built theme or in themes that just use the date without 'posted by..'.
-It doesn't completely 'dutchify' your theme's date representation.
 
-*Example:* Where some themes would say 'Posted by Harry on Thursday, October 22nd' only the date part is translated, resulting in 'Posted by Harry on Donderdag, Oktober 22'. For complete dutchification one would  either, depending on your specific situation:
+The plugin doesn't completely 'dutchify' your theme's date representation. Some template editing might be needed.
+
+*Example:* Where some themes would say 'Posted by Harry on Thursday, October 22nd' only the date part is translated, resulting in 'Posted by Harry on Donderdag, Oktober 22'. 
+
+For complete dutchification one would  either, depending on your specific situation:
 
 * Edit your Date Format settings under the Settings > General tab in your WordPress admin area.
-* Edit your theme's template files, adapting the `<?php the_time(); ?>` or `<?php the_date(); ?>` template tag appropriately.
+* Edit your theme's template files, adapting `<?php the_time(); ?>` or `<?php the_date(); ?>` template tags or the english text around it appropriately.
 For a howto on editing the time template tag, check the [Template Tags/the time Codex page](http://codex.wordpress.org/Template_Tags/the_time).
-* Or, as an alternative to this plugin, use a dutch .po language file.
+* Or, as an alternative to this plugin, use a dutch .mo language file.
  
 **Update:**
 
-1.4 Added translation for the_modified_time, the_date and the_modified_date template tags
-1.3 Previously omitted August > Augustus, corrected in this version. Now also removes st, nd and th.
+* 1.4 Added translation for `<?php the_modified_time(); ?>`, `<?php the_date();?>` and `<?php the_modified_date(); ?>` template tags
+* 1.3 Previously omitted August > Augustus, corrected in this version. Now also removes st, nd and th.
 
 
 
