@@ -26,7 +26,7 @@ For complete dutchification one would  either, depending on your specific situat
 For a howto on editing the time template tag, check the [Template Tags/the time Codex page](http://codex.wordpress.org/Template_Tags/the_time).
 * Or, as an alternative to this plugin, use a dutch .mo language file.
  
-**Update:**
+**Changelog:**
 
 * 1.5 added filter for `get_comment_date()`. To translate the comment date you'd need to swap `<?php comment_date(); ?>` with `<?php echo get_comment_date(); ?>` in your template files. Inspired by [Kim Alders](http://kimalders.nl).
 * 1.4 Added translation for `<?php the_modified_time(); ?>`, `<?php the_date();?>` and `<?php the_modified_date(); ?>` template tags
