@@ -1,7 +1,7 @@
 === DutchDate ===
 Contributors: mendezki
 Tags: dutch, english, date, translate
-Requires at least: 1.5
+Requires at least: 1.6
 Tested up to: 2.7.1
 Stable tag: trunk
 
@@ -28,6 +28,7 @@ For a howto on editing the time template tag, check the [Template Tags/the time 
  
 **Update:**
 
+* 1.5 added filter for `get_comment_date()`. To translate the comment date you'd need to swap `<?php comment_date(); ?>` with `<?php echo get_comment_date(); ?>` in your template files. Inspired by [Kim Alders](http://kimalders.nl).
 * 1.4 Added translation for `<?php the_modified_time(); ?>`, `<?php the_date();?>` and `<?php the_modified_date(); ?>` template tags
 * 1.3 Previously omitted August > Augustus, corrected in this version. Now also removes st, nd and th.
 

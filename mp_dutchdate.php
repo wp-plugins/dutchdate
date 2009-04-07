@@ -3,7 +3,7 @@
 Plugin Name: DutchDate
 Plugin URI: http://multipop.org/dutchdate
 Description: Automagically converts english months and days (except for the initials) to their dutch equivalent.
-Version: 1.4
+Version: 1.5
 Author: Barry Ceelen
 Author URI: http://multipop.org
 
@@ -35,5 +35,6 @@ add_filter('the_time', 'multipop_date_replace');
 add_filter('the_modified_time', 'multipop_date_replace');
 add_filter('the_date', 'multipop_date_replace');
 add_filter('the_modified_date', 'multipop_date_replace');
-	
+add_filter('get_comment_date','multipop_date_replace');
+
 ?>
