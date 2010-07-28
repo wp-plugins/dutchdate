@@ -2,7 +2,7 @@
 Contributors: mendezki
 Tags: dutch, english, date, translate
 Requires at least: 1.6
-Tested up to: 2.9
+Tested up to: 3.0
 Stable tag: trunk
 
 Replaces english day and month names with their dutch equivalent 
