@@ -2,7 +2,7 @@
 Contributors: mendezki
 Tags: dutch, english, date, translate
 Requires at least: 1.6
-Tested up to: 3.0.1
+Tested up to: 3.1
 Stable tag: trunk
 
 Replaces english day and month names with their dutch equivalent 
@@ -11,7 +11,7 @@ Replaces english day and month names with their dutch equivalent
 
 Using an English Wordpress install and publishing posts in Dutch? Those pesky English dates produced by `<?php the_time(); ?>` and `<?php the_date(); ?>` were getting on my nerves too, hence this plugin. Automatically converts english months and days (except for the initials, so far) to their dutch equivalent.
 
-**Intended usage:**
+== Intended usage ==
 
 Replacing dates like 'Thursday, October 22nd', for instance in your custom built theme or in themes that just use the date without 'posted by..'.
 
@@ -26,14 +26,12 @@ For complete dutchification one would  either, depending on your specific situat
 For a howto on editing the time template tag, check the [Template Tags/the time Codex page](http://codex.wordpress.org/Template_Tags/the_time).
 * Or, as an alternative to this plugin, use a dutch .mo language file.
  
-**Changelog:**
+== Changelog ==
 
 * 1.6 Repaired wrong translation of 'March' & translated months are now all lowercase. Fix by [Kim Alders](http://kimalders.nl).
 * 1.5 added filter for `get_comment_date()`. To translate the comment date you'd need to swap `<?php comment_date(); ?>` with `<?php echo get_comment_date(); ?>` in your template files. Inspired by [Kim Alders](http://kimalders.nl).
 * 1.4 Added translation for `<?php the_modified_time(); ?>`, `<?php the_date();?>` and `<?php the_modified_date(); ?>` template tags
 * 1.3 Previously omitted August > Augustus, corrected in this version. Now also removes st, nd and th.
-
-
 
 == Installation ==
 
