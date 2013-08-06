@@ -1,5 +1,5 @@
 === DutchDate ===
-Contributors: mendezki
+Contributors: mendezki, MacSteini
 Tags: dutch, english, date, translate
 Requires at least: 1.6
 Tested up to: 3.1
