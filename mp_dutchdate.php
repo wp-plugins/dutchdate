@@ -3,7 +3,7 @@
 Plugin Name: DutchDate
 Plugin URI: http://multipop.org/dutchdate
 Description: Translates english months and days output from WordPress template tags to their dutch equivalent.
-Version: 1.8
+Version: 1.9
 Author: Barry Ceelen
 Author URI: http://multipop.org
 
@@ -41,11 +41,11 @@ function multipop_date_replace( $string ) {
 	return $string;
 }
 
-add_filter('the_time', 'multipop_date_replace');
-add_filter('the_date', 'multipop_date_replace');
-add_filter('get_the_time', 'multipop_date_replace');
-add_filter('get_the_date', 'multipop_date_replace');
-add_filter('the_modified_time', 'multipop_date_replace');
-add_filter('the_modified_date', 'multipop_date_replace');
-add_filter('get_the_modified_time', 'multipop_date_replace');
-add_filter('get_the_modified_date', 'multipop_date_replace')
+add_filter( 'the_time', 'multipop_date_replace' );
+add_filter( 'the_date', 'multipop_date_replace' );
+add_filter( 'get_the_time', 'multipop_date_replace' );
+add_filter( 'get_the_date', 'multipop_date_replace' );
+add_filter( 'the_modified_time', 'multipop_date_replace' );
+add_filter( 'the_modified_date', 'multipop_date_replace' );
+add_filter( 'get_the_modified_time', 'multipop_date_replace' );
+add_filter( 'get_the_modified_date', 'multipop_date_replace' );
