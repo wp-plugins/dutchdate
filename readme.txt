@@ -1,9 +1,13 @@
 === DutchDate ===
 Contributors: mendezki, MacSteini
-Tags: dutch, english, date, translate
-Requires at least: 1.6
-Tested up to: 3.1
-Stable tag: trunk
+Donate link: https://flattr.com/thing/1174660/MacSteini
+Tags: Dutch, English, Date, Translate
+Requires at least: 1.5.1
+Tested up to: 4.0
+Compatible up to: 4.0
+Stable tag: 1.8
+License: GPLv2 or later
+License URI: http://gnu.org/licenses/gpl-2.0.html
 
 Replaces english day and month names with their dutch equivalent
 
