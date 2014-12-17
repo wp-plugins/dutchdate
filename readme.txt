@@ -3,8 +3,8 @@ Contributors: mendezki, MacSteini
 Donate link: https://flattr.com/thing/1174660/MacSteini
 Tags: Dutch, English, Date, Translate
 Requires at least: 1.5.1
-Tested up to: 4.0
-Compatible up to: 4.0
+Tested up to: 4.1
+Compatible up to: 4.1
 Stable tag: 1.8
 License: GPLv2 or later
 License URI: http://gnu.org/licenses/gpl-2.0.html
