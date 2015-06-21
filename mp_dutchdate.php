@@ -7,7 +7,7 @@ Version: 1.8
 Author: Barry Ceelen
 Author URI: http://multipop.org/
 Min WP Version: 1.5.1
-Max WP Version: 4.2
+Max WP Version: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
